@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Dani</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #c7faff;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background: linear-gradient(90deg, #4a00e0, #8e2de2);
+            padding: 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background: #111;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            padding: 1rem;
+        }
+
+        nav a:hover {
+            color: #ff00cc;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        article {
+            background: #1a1a2e;
+            padding: 1.5rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+        article img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #111;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <header>
+      <h1>Blog Dani</h1>
+      <p>Un espacio para compartir lo que me de la gana :)</p>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Sobre mi</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Mi primer post✨</h2>
+            <p>¡Bienvenido a mi blog personal! Aquí compartiré lo que me apetezca</p>
+            <imag scr="https://us.123rf.com/450wm/yayayoy/yayayoy2001/yayayoy200100004/137003550-emoji-emoticon-pulling-with-his-finger-one-lower-eyelid-further-down-meaning-alertness-be-watchful.jpg" alt="Imagen aleatoria"></imag>
+        </article>
+           
+        <article>
+            <h2>Seguimos probando como funciona esto</h2>
+            <p>Todavía sigo investigando como usar esto bien del todo jaj</p>
+            <imag scr="https://img.freepik.com/vector-premium/pulgar-arriba-emoticon-parpadeando_1303870-100.jpg?semt=ais_hybrid&w=740&q=80" alt="Montaña"></imag>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2025 Daniel Fernandez Lara __ Creado con HTML</p>
+    </footer>
+
+</body>
+</html>
